@@ -8,7 +8,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT =
   path.basename(__dirname) === "dist" ? path.join(__dirname, "..") : __dirname;
 
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 
 interface Site {
   url: string;
