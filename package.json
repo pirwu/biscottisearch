@@ -1,0 +1,15 @@
+{
+  "name": "biscotti-search",
+  "version": "1.0.0",
+  "description": "biscotti-searcher",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsc && node dist/server.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.0"
+  }
+}

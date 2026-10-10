@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Biscotti Search</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Biscotti<span>Search</span></h1>
+    </header>
+
+    <form id="search-form">
+      <input
+        type="text"
+        id="query"
+        name="q"
+        placeholder="Введите запрос..."
+        autocomplete="off"
+        autofocus
+      >
+      <button type="submit">Найти</button>
+    </form>
+
+
+    <div id="stats"></div>
+    <div id="results"></div>
+
+    <footer>
+      <hr>
+      <p>
+        Biscotti Search ·
+        <a href="#" id="about">О проекте</a> ·
+        Найдено сайтов в индексе: <span id="index-size">?</span>
+      </p>
+    </footer>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
